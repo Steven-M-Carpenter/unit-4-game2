@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character Attack</title>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Jquery Library CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:300,400,900" rel="stylesheet">
+
+</head>
+
+
+
+<body class="bg" background="./assets/images/PackPeanutsBlur2.jpg">
+
+    <div class="container ml-2">
+        <div class="row">
+            <p class=col-lg-8></p>
+            <header class="titleArea col-lg-4 mb-3">
+                <p id="gameTitle">
+                    Packin' Peanuts
+                </p>
+
+            </header>
+        </div>
+        <div class="row">
+            <figure class="col-lg-10 ml-1 mr-1 mb-2 pl-0">
+                <span id="homeChar1">
+                    <div id="charBox1" class="ml-2">
+                        <p id="CharlieName" class="charName">Charlie</p>
+                        <img id="character_1" class="characterImage" src="./assets/images/charlie.jpg" alt="Picture of a Charlie Brown">
+                        <p id="CharlieHP" class="charHP">150</p>
+                    </div>
+                </span>
+                <span id="homeChar2">
+                    <div id="charBox2" class="ml-2">
+                        <p id="PattyName" class="charName">Peppermint Patty</p>
+                        <img id="character_2" class="characterImage" src="./assets/images/Patty.jpg" alt="Picture of a Peppermint Patty">
+                        <p id="PattyHP" class="charHP">180</p>
+                    </div>
+                </span>
+                <span id="homeChar3">
+                    <div id="charBox3" class="ml-2">
+                        <p id="LucyName" class="charName">Lucy</p>
+                        <img id="character_3" class="characterImage" src="./assets/images/lucy.jpg" alt="Picture of a Lucy">
+                        <p id="LucyHP" class="charHP">170</p>
+                    </div>
+                </span>
+                <span id="homeChar4">
+                    <div id="charBox4" class="ml-2">
+                        <p id="LinusName" class="charName">Linus</p>
+                        <img id="character_4" class="characterImage" src="./assets/images/Linus.jpg" alt="Picture of a Linus">
+                        <p id="LinusHP" class="charHP">160</p>
+                    </div>
+                </span>
+            </figure>
+        </div>
+        <div class="row">
+            <p class="col-lg-4 mt-2 yourCharLabel">Your Character</p>
+        </div>
+        <div class="row">
+            <span id="attackImageArea" class="mt-2 mb-2"></span>
+        </div>
+        <div id="enemyAttackArea" class="row">
+            <p class="col-lg-4 mt-1 mb-1 enemyToAttack">Enemies Available To Attack</p>
+        </div>
+        <div class="row">
+            <span id="enemyImageArea1" class="mt-2 mb-2"></span>
+            <span id="enemyImageArea2" class="mt-2 mb-2"></span>
+            <span id="enemyImageArea3" class="mt-2 mb-2"></span>
+        </div>
+        <div class="row">
+            <p class="col-lg-4 mt-1 mb-3 fightSection">Fight Section</p>
+        </div>
+        <div class="row">
+            <button id="attackButton">Attack</button>
+        </div>
+        <div class="row">
+            <p class="col-lg-4 mt-3 mb-1 defenderLabel">Defender</p>
+        </div>
+        <div class="row">
+            <span id="defenderImageArea" class="col-lg-6 mt-2 mb-2"></span>
+         </div>
+        <div class="row">
+            <p id="messageArea1" class="messages mt-1 mb-2">.</p>
+        </div>
+        <div class="row">
+            <p id="messageArea2" class="messages mt-1 mb-3">.</p>
+        </div>
+        <div class="row">
+            <p id="messageArea3" class="messages mt-1 mb-3">.</p>
+        </div>
+    </div>
+
+
+    <script src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>

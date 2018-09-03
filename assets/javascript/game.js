@@ -207,6 +207,7 @@ $(document).ready(function () {
                 $('#charBox3').css('background-color', 'black');
                 $('#charBox3').css('color', 'white');
                 $("#character_3").attr("src", "./assets/images/lucy_gun.jpg");
+
             }
             if ((charReference === "LinusChar") && (charAttacker != "LinusChar")) {
                 enemySelected = true;
